@@ -1,14 +1,14 @@
-# Steam Game Library Manager
+# Sly Store Library
 
-![Steam Game Library Manager](https://your-image-url.com/banner.png)
+![Sly Store Library](https://i.imgur.com/kmEOKrU.png)
 
 ## Overview
 
-Steam Game Library Manager is a tool designed to help you manage your Steam game collection efficiently. With features such as game categorization, automatic updates, and library statistics, it provides a comprehensive solution for gamers who want to keep their libraries organized and up-to-date.
+Sly Store Library is a tool designed to help you get your Steam game collection efficiently. With features such as game library, active updates and huge collections of game, it provides a comprehensive solution for gamers who want to keep their games up-to-date.
 
 ## Features
 
-- **Game Categorization**: Organize your games into custom categories.
+- **Dedicated Game Libarary Server**: Huge library collections.
 - **Automatic Updates**: Receive updates about new releases and discounts.
 - **Library Statistics**: View detailed statistics about your game collection.
 - **Backup & Restore**: Backup your game settings and restore them easily.
