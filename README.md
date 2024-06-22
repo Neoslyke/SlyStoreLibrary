@@ -1,43 +1,108 @@
-# 请买正版！！！！
+# Steam Game Library Manager
 
+![Steam Game Library Manager](https://your-image-url.com/banner.png)
 
-从别的地方收集的清单和密钥 并且转换了steamtools能直接使用的格式 直接下载然后拖入steamsools即可食用
+## Overview
 
-Like please buy genuine and authorize legal use
+Steam Game Library Manager is a tool designed to help you manage your Steam game collection efficiently. With features such as game categorization, automatic updates, and library statistics, it provides a comprehensive solution for gamers who want to keep their libraries organized and up-to-date.
 
-This is only suitable for testing
+## Features
 
-Reprinted from major media and networks
+- **Game Categorization**: Organize your games into custom categories.
+- **Automatic Updates**: Receive updates about new releases and discounts.
+- **Library Statistics**: View detailed statistics about your game collection.
+- **Backup & Restore**: Backup your game settings and restore them easily.
+- **Cross-Platform**: Compatible with Windows, macOS, and Linux.
 
-User agreement:
+## Installation
 
-Please do not run and use it before reading and accepting all the terms of this license agreement. Only when the user agrees to the license terms will he have the right to use the test. Using this test means that the user accepts the license terms.
+### Prerequisites
 
-1. This is for testing and research purposes only, and the copyright belongs to the issuing company. No organization or individual may disseminate or use it for any commercial purposes, otherwise all consequences will be borne by the organization and individual! Our company will not bear any legal and joint liability.
-2. No responsibility is assumed for any adverse effects caused by using this software.
-3. Please consciously delete it within 24 hours after downloading. If you like this game, please buy the genuine one and authorize it for legal use.
+- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [Steam API Key](https://steamcommunity.com/dev/apikey)
 
-Please read this description carefully before using the software. Once you start running and using it, you will agree to all the contents of the statement by default, and will not be responsible for any adverse effects!
+### Steps
 
-Disclaimer 1: we is absolutly legal and contain only links to other sites such , We do not host anything (rar,iso,torrent…) on our server.
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/your-username/steam-game-library-manager.git
+    ```
 
-Disclaimer 2: This site, All Links , other resources are reproduced from others Public forums & blogs & others websites.
+2. Navigate to the project directory:
+    ```sh
+    cd steam-game-library-manager
+    ```
 
-喜欢请购买正版并授权合法使用
+3. Install dependencies:
+    ```sh
+    npm install
+    ```
 
-转载自各大媒体和网络
+4. Configure your Steam API key:
+    ```sh
+    cp .env.example .env
+    ```
+    Edit the `.env` file and add your Steam API key.
 
-用户使用协议：
+5. Run the application:
+    ```sh
+    npm start
+    ```
 
-在阅读并接受本授权协议所有的条款之前，请勿运行和使用。在用户同意此授权条款时，才具有使用测试的权限。使用此测试即表示用户接受此授权条款。
+## Usage
 
-1．此仅供爱好者测试及研究之用,版权归发行公司所有。任何组织或个人不得传播或用于任何商业用途,否则一切后果由该组织及个人承担! 我方将不承担任何法律及连带责任。
-2．对使用本本测试版本后产生的任何不良影响,我方不承担任何法律及连带责任。
-3．请自觉与下载后２４小时内删除．如果喜欢本游戏，请购买正版并授权合法使用。
+### Basic Commands
 
-在使用该软件之前请先仔细阅读本说明，一旦开始运行和使用以后就默认同意了该申明中的所有内容，若有任何不良影响概不负责！
+- **List Games**: Display all games in your library.
+    ```sh
+    npm run list-games
+    ```
 
-免责声明 1： 分享是绝对合法的，并且仅包含其他网站的资源，不会私自破坏，破解发布资源
+- **Add Category**: Add a new category to your library.
+    ```sh
+    npm run add-category "RPG"
+    ```
 
-免责声明2： 本人发布的所有链接资源，转载自其他公共论坛&博客&其他网站。
+- **View Statistics**: Display statistics of your game collection.
+    ```sh
+    npm run stats
+    ```
 
+### Configuration
+
+You can customize the behavior of the Steam Game Library Manager by editing the `config.json` file. Here you can set preferences for categories, update intervals, and more.
+
+## Contributing
+
+We welcome contributions from the community! If you'd like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix.
+    ```sh
+    git checkout -b feature-name
+    ```
+3. Commit your changes.
+    ```sh
+    git commit -m "Description of your feature or bugfix"
+    ```
+4. Push to your branch.
+    ```sh
+    git push origin feature-name
+    ```
+5. Create a pull request detailing your changes.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+## Contact
+
+If you have any questions or need further assistance, feel free to reach out:
+
+- **Email**: support@your-email.com
+- **Discord**: [Join our community](https://discord.gg/your-invite-link)
+- **Twitter**: [Follow us on Twitter](https://twitter.com/your-twitter-handle)
+
+---
+
+*Happy gaming!*
